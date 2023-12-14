@@ -1,2 +1,19 @@
+# Client Mobile Area
+
 **Application mobile React Native construite avec Expo en utilisant TypeScript**
+
+## Introduction
+
+Client Mobile Area est une application mobile qui permet aux utilisateurs de gérer leurs services musicaux. L'application permet aux utilisateurs de se connecter à leurs comptes Deezer, Spotify et YouTube, et de contrôler la lecture de musique, de podcasts et de vidéos.
+
+## Installation
+
+Pour installer l'application, vous avez besoin des éléments suivants :
+
+* Un ordinateur avec Node.js et npm installés
+* Un émulateur ou un appareil Android ou iOS
+
+## Exécution de l'Application
+
+Pour exécuter l'application, assurez-vous d'avoir Expo CLI installé. Ensuite, exécutez la commande suivante :
 
