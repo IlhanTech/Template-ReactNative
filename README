@@ -1,19 +1,81 @@
-# Client Mobile Area #
+Bienvenue dans le projet Client Mobile Area ! Cette application mobile React Native est construite avec Expo en utilisant TypeScript.
 
-**Application mobile React Native construite avec Expo en utilisant TypeScript**
+## Table des Matières
 
-## Introduction
-
-Client Mobile Area est une application mobile qui permet aux utilisateurs de gérer leurs services musicaux. L'application permet aux utilisateurs de se connecter à leurs comptes Deezer, Spotify et YouTube, et de contrôler la lecture de musique, de podcasts et de vidéos.
+- [Table des Matières](#table-des-matières)
+- [Installation](#installation)
+- [Exécution de l'Application](#exécution-de-lapplication)
+- [Structure du Projet](#structure-du-projet)
 
 ## Installation
 
-Pour installer l'application, vous avez besoin des éléments suivants :
+1. **Clonez le dépôt :**
 
-* Un ordinateur avec Node.js et npm installés
-* Un émulateur ou un appareil Android ou iOS
+    ```bash
+    git clone https://github.com/your-username/client-mobile-area.git
+    ```
+
+    Installez les dépendances :
+
+    ```bash
+    cd client-mobile-area
+    npm install
+    ```
+
+2. **Configuration**
+
+    Copiez le fichier `.env.example` en un nouveau fichier `.env` et ajustez les variables d'environnement selon vos besoins :
+
+    ```bash
+    cp .env.example .env
+    ```
+
+    Configurez d'autres détails dans le fichier `app.json`, `eas.json`, ou tout autre fichier pertinent.
 
 ## Exécution de l'Application
 
-Pour exécuter l'application, assurez-vous d'avoir Expo CLI installé. Ensuite, exécutez la commande suivante :
+Assurez-vous d'avoir Expo CLI installé. Vous pouvez démarrer l'application en exécutant :
 
+```bash
+yarn start
+```
+
+## Structure du Projet
+
+La structure du projet est organisée comme suit:
+
+- `app.json`: Configuration Expo de l'application.
+- `App.tsx`: Point d'entrée de l'application.
+- `babel.config.js`: Configuration Babel.
+- `eas.json`: Configuration Expo Application Services (EAS).
+- `env.d.ts`: Définitions de types pour les variables d'environnement.
+- `package.json`: Informations sur le projet et dépendances.
+- `tsconfig.json`: Configuration TypeScript.
+- `yarn.lock`: Verrouillage des versions pour Yarn.
+
+**Dossiers:**
+
+- `src/assets`: Fichiers multimédias tels que des images.
+
+**Components:**
+
+- `AppNavigator`: Gestion de la navigation de l'application.
+- `BackButton`: Composant de bouton de retour.
+- `BubbleBackground`: Arrière-plan avec des bulles animées.
+- `ButtonGradient`: Bouton avec dégradé.
+- `CronComponent`: Composant pour la gestion des tâches planifiées.
+- `RememberMe`: Composant pour la fonction "Se souvenir de moi".
+
+**Screens:**
+
+- `ActionDeezerScreen`: Écran pour les actions liées à Deezer.
+- `ActionSpotifyScreen`: Écran pour les actions liées à Spotify.
+- `ActionYoutubeScreen`: Écran pour les actions liées à YouTube.
+- `CronSettingsScreen`: Écran de paramètres pour la gestion des tâches planifiées.
+- `ForgotPasswordScreen`: Écran pour la récupération de mot de passe.
+- `LoginScreen`: Écran de connexion.
+- `ResetPasswordScreen`: Écran pour la réinitialisation du mot de passe.
+- `ServiceScreen`: Écran de gestion des services.
+- `SignUpScreen`: Écran d'inscription.
+
+Pour un guide d'installation Expo, consultez la [documentation Expo](https://docs.expo.dev/get-started/installation/).
