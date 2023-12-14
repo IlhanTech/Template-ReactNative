@@ -1,44 +1,23 @@
 # Client Mobile Area
 
-Bienvenue dans le projet Client Mobile Area ! Cette application mobile React Native est construite avec Expo en utilisant TypeScript.
+**Application mobile React Native construite avec Expo en utilisant TypeScript**
 
-## Table des Matières
+## Introduction
 
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Exécution de l'Application](#exécution-de-lapplication)
-- [Structure du Projet](#structure-du-projet)
-- [Contributions](#contributions)
-- [Licence](#licence)
+Client Mobile Area est une application mobile qui permet aux utilisateurs de gérer leurs services musicaux. L'application permet aux utilisateurs de se connecter à leurs comptes Deezer, Spotify et YouTube, et de contrôler la lecture de musique, de podcasts et de vidéos.
+
+L'application est construite avec React Native, Expo et TypeScript. Elle utilise une architecture monolitique avec une navigation basée sur des piles.
+
+[Image of une capture d'écran de l'application]
 
 ## Installation
 
-1. **Clonez le dépôt :**
+Pour installer l'application, vous avez besoin des éléments suivants :
 
-    ```bash
-    git clone https://github.com/your-username/client-mobile-area.git
-    ```
+* Un ordinateur avec Node.js et npm installés
+* Un émulateur ou un appareil Android ou iOS
 
-    Installez les dépendances :
+Pour installer l'application, suivez les étapes suivantes :
 
-    ```bash
-    cd client-mobile-area
-    npm install
-    ```
+1. Clonez le dépôt Git :
 
-2. **Configuration**
-
-    Copiez le fichier `.env.example` en un nouveau fichier `.env` et ajustez les variables d'environnement selon vos besoins :
-
-    ```bash
-    cp .env.example .env
-    ```
-
-    Configurez d'autres détails dans le fichier `app.json`, `eas.json`, ou tout autre fichier pertinent.
-
-## Exécution de l'Application
-
-Assurez-vous d'avoir Expo CLI installé. Vous pouvez démarrer l'application en exécutant :
-
-```bash
-yarn start
