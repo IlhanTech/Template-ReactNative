@@ -19,7 +19,7 @@ Bienvenue dans le projet Client Mobile Area ! Cette application mobile React Nat
 
     ```bash
     cd client-mobile-area
-    npm install
+    yarn install
     ```
 
 2. **Configuration**
