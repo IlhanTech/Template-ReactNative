@@ -12,7 +12,7 @@ Bienvenue dans le projet Client Mobile Area ! Cette application mobile React Nat
 1. **Clonez le dépôt :**
 
     ```bash
-    git clone https://github.com/your-username/client-mobile-area.git
+    git clone https://github.com/your-username/Template-ReactNative.git
     ```
 
     Installez les dépendances :
